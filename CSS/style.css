@@ -9,5 +9,12 @@ h1,h2 {
 img {
   width: 300px;
 }
-
+a:link {
+  color: red;
+  text-decoration: none;
+}
+a:visited {
+  color: red;
+  text-decoration: none;
+}
 
