@@ -1,0 +1,45 @@
+body {
+    background-image: url(../images/silverware.jpg) ;
+    background-attachment: fixed;
+
+}
+.header{
+    text-transform: capitalize;
+    text-decoration: underline;
+    color: olive;
+    background-color:rgb(212, 212, 212);
+    font-weight: lighter;
+    font-size: 150%;
+    letter-spacing: 0.25em;
+}
+
+.comments {
+    font-style: italic;
+    background-color:#FFFFA8;
+    margin-left: 5%;
+}
+ul, ol li li {
+  list-style-image: url('../images/pie_bullet.png');
+}
+ol li{
+    list-style: decimal;
+}
+
+#headerMain{
+    color: olive;
+    text-align: center;
+    font-family:"Comic Sans MS";
+    text-decoration: underline;
+    background-color:rgb(212, 212, 212);
+    font-weight: lighter;
+}
+#copyright{
+    float: right;
+    
+}
+#validator{
+    float: right;
+}
+#space{
+    clear: both;
+}
