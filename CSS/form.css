@@ -1,0 +1,30 @@
+form{
+    width: 50%;
+    margin: auto;
+    display: block;
+    
+}
+fieldset{
+background-color: rgb(240, 236, 252);
+}
+legend{
+    border: black solid 1px;
+    background-color: white;
+}
+.items{
+    margin: 5px;
+
+}
+.input{
+    margin-left: 20px;
+}
+.labels{
+    width: 120px;
+    display: inline-block
+}
+span{
+    color: red;
+}
+#submit{
+    background-color: pink;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms Practice</title>
+    <link rel="stylesheet" href="./CSS/form.css" type="text/CSS" />
+  </head>
+  <body>
+    <form action="http://mumstudents.org/params.php">
+      <fieldset>
+        <legend>New User Signup</legend>
+        <div class="items">
+          <label class="labels" for="name">Name: </label>
+          <input type="text" name="name" id="name" />
+        </div>
+        <div class="items" id="genderContainer">
+          <label class="labels" for="">Gender: </label>
+          <label>Male <input type="radio" name="male" /></label>
+          <label>Female <input type="radio" name="Female" checked /></label>
+        </div>
+        <div class="items">
+          <label class="labels" for="name">Age: </label>
+          <input type="text" name="age" id="age" />
+        </div>
+        <div class="items">
+          <label class="labels" for="personality">Personality Type: </label>
+          <input type="text" name="personality" id="personality" />
+          <span>(Don't Know your type?)</span>
+        </div>
+        <div class="items">
+          <label class="labels" for="os">Favorite OS: </label>
+          <select name="os" id="os">
+            <option value="windows">Windows</option>
+            <option value="linux">Linus</option>
+            <option value="macos">macOs</option>
+          </select>
+        </div>
+        <div class="items">
+          <label class="labels" for="age">Seeking age: </label>
+          <input type="text" name="age" id="age" />
+          <label for=""> to </label>
+          <input type="text" name="age" id="age" />
+        </div>
+        <div class="items">
+            <input id="submit" type="submit" name="sign up" value="Sign Up">
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
