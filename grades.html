@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Retrieve Grade</title>
+    <link rel="stylesheet" href="./CSS/grades.css" type="text/CSS" />
+  </head>
+  <body>
+    <form action="http://mumstudents.org/params.php">
+      <fieldset>
+        <legend>Retrieve Grade</legend>
+        <div class="items">
+          <label for="name">Name: </label>
+          <input type="text" name="name" id="name" />
+        </div>
+        <div class="items">
+          <label for="id">ID: </label>
+          <input type="text" name="name" id="id" />
+        </div>
+        <div class="items">
+          <label for="assignment">Choose Assignment: </label>
+          <select name="assignment" id="assignment" >
+            <option value="assignment one">Home</option>
+            <option value="assignment two">About Me</option>
+            <option value="assignment three">Recipe</option>
+            <option value="assignment four">Movie Review</option>
+          </select>
+        </div>
+
+        <fieldset class="items">
+          <legend>Entry:</legend>
+          <label>Aug <input type="radio" name="august" /></label>
+          <label>Nov <input type="radio" name="November" /></label>
+          <label>Feb <input type="radio" name="February" /></label>
+          <label>May <input type="radio" name="May" /></label>
+        </fieldset>
+        <div class="items">
+          <input type="checkbox" name="name" id="truthful" />
+          <label for="truthful">I am not lying and I am really
+          looking my grade only: </label>
+        </div>
+        <div class="items">
+            <input type="button" name="Submit" value="Check Grade">
+        </div>
+        <a href="index.html">Home</a>
+
+      </fieldset>
+    </form>
+  </body>
+</html>

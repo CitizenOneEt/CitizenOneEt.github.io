@@ -1,0 +1,17 @@
+body{
+    background-image: url('../images/grade.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+form{
+    width: 40%;
+    margin: auto;
+    display: block;
+}
+
+.items{
+    margin: 5px;
+}
+a:visited {
+    color: red;
+}

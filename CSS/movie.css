@@ -1,0 +1,175 @@
+body {
+  margin: 0px;
+  min-height: 1150px;
+  background-image: url("../images/background.png");
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 8px;
+}
+#item1,
+#item2 {
+  width: 100%;
+  height: 50px;
+  margin: 0px;
+}
+#item1 {
+  background-image: url("../images/banner.png");
+}
+#item2 h1 {
+width: 150px;
+  font-size: 36px;
+  font-weight: bolder;
+  margin: 15px auto;
+}
+#item2 h1 {
+  text-shadow: 3px 3px 2px 3px #fffbfb;
+}
+#movieTitle {
+  width: 120px;
+  margin: 0 auto;
+  font-size: 200%;
+}
+#item3 {
+  width: 800px;
+  height: 1000px;
+  margin: 0px auto;
+
+  overflow: hidden;
+  border-radius: 20px;
+  border: solid grey 4px;
+  border-radius: 5px;
+}
+#innerItem1 {
+  width: 100%;
+  height: 97%;
+
+  float: left;
+}
+#innerItem2 {
+  width: 100%;
+  height: 3%;
+  background-color: #a2b964;
+  float: left;
+}
+#deepItem1 {
+  width: 67%;
+  height: 100%;
+
+  float: left;
+}
+#deepItem2 {
+  width: 33%;
+  height: 100%;
+
+  float: left;
+}
+#rating {
+  width: 100%;
+  height: 84px;
+
+  float: left;
+  
+}
+#review {
+  width: 100%;
+  height: 93%;
+  background-image: url("../images/background.png");
+
+  float: left;
+  display: flex;
+  float: left;
+  display: flex;
+  flex-direction: column;
+}
+.quotes {
+  width: 500px;
+  height: 140px;
+  
+  align-self: center;
+  margin: 10px;
+  display: flex;
+}
+#ratingLogo {
+  width: 15%;
+  height: 100%;
+  float: left;
+
+}
+#ratingPercentage {
+  width: 85%;
+  height: 100%;
+  float: left;
+  background-image: url('../images/rbg.png');  
+}
+#ratingPercentage h1{
+    margin-left: 30px;
+    font-size: 600%;
+    color: red;
+}
+#picture {
+  width: 100%;
+  height: 40%;
+  float: left;
+}
+#picture > img {
+  width: 100%;
+  height: 100%;
+}
+#movieDetails {
+  width: 100%;
+  height: 60%;
+  float: left;
+  background-color: #a2b964;
+}
+.critique1,
+.critique2 {
+  width: 242.5px;
+  height: 100%;
+}
+.critique1 {
+  margin: 0px 10px 0px 0px;
+}
+.critique2 {
+  margin: 0 px 0px 10px 10px;
+}
+.quote {
+  border: grey solid 2px;
+  border-radius: 10px;
+  background-color: #e8dc9b;
+  padding: 5px;
+  font-weight: bold;
+}
+.names > div {
+  padding-top: 15px;
+}
+.names > div > p {
+  margin: 0;
+  font-size: 8px;
+}
+.leftimg {
+  float: left;
+}
+#movieDetails{
+    padding-left:20px ;
+}
+.definitions{
+    padding-top: 15px;
+}
+.definitions>dt{
+    font-weight: bold;
+}
+.definitions dd ul {
+    list-style-position:outside;
+}
+h2{
+    width: 100px;
+    margin: 3px auto;
+}
+#validator{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+}
+#validator a img{
+    opacity: 50%;
+}
