@@ -25,7 +25,7 @@ function changeAlert(){
         document.getElementById('textArea').style.fontWeight = "bold";
         document.getElementById('textArea').style.color = "green";
         document.getElementById('textArea').style.textDecoration = "underline";
-        document.body.style.backgroundImage = "url('https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?cs=srgb&dl=pexels-pixabay-39284.jpg&fm=jpg')"; 
+
        
 
     }else{
