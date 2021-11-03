@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asciimation</title>
+    <link rel="stylesheet" href="./CSS/ascii.css" />
+  </head>
+  <body>
+    <h1>CSE 190 M ASCII Animation Viewer</h1>
+    <div id="mainContent">
+      <textarea
+        name="animationBox"
+        id="mainText"
+        cols="80"
+        rows="20"
+      ></textarea>
+      <div id="controls">
+        <fieldset class="control">
+          <legend>Play Controls:</legend>
+          <button id="startButton" class="playControls">Start</button>
+          <button onclick="stop()" id="stopButton" class="playControls">
+            Stop
+          </button>
+        </fieldset>
+        <fieldset class="control">
+          <legend>Animation:</legend>
+          <select id="animation" name="animation">
+            <option value="blank">Blank</option>
+            <option value="exercise">Exercise</option>
+            <option value="juggler">Juggler</option>
+            <option value="bike">Bike</option>
+            <option value="dive">Dive</option>
+            <option value="custome">Custom</option>
+          </select>
+        </fieldset>
+        <fieldset class="control">
+          <legend>Size:</legend>
+          <select id="size" name="size">
+            <option value="tiny">Tiny</option>
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+            <option value="extraLarge">Extra Large</option>
+            <option value="xxl">XXL</option>
+          </select>
+        </fieldset>
+        <fieldset class="control">
+          <legend>Speed:</legend>
+          <input type="checkbox" name="turbo" id="turbo" />
+          <label for="turbo">Turbo</label>
+        </fieldset>
+      </div>
+    </div>
+    <script src="./js/ascii.js"></script>
+    <script src="./js/animations.js"></script>
+  </body>
+</html>
