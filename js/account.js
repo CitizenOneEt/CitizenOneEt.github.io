@@ -6,9 +6,15 @@ class Account{
   }
 }
 const account = []; 
-function createAccount(type, balance){
-    var accType = document.getElementById('accountName').innerText;
-    var balance = document.getElementById('deposit').innerText;
-    var acc = new Account(accType,balance);
-    account.push(acc); 
+function createAccount(){
+    var accType = document.getElementById('accountName').value;
+    var balance = document.getElementById('deposit').value;
+    var accountToAdd = new Account(accType,balance);
+    console.log(accType);
+    account.push(accountToAdd); 
+    var txt = "";
+    account.forEach(acc => {
+       txt+= "Account name: " + acc.type + " Balance: " + acc.balance + "\n";
+    });
+    document.getElementById("accounts").value = txt;
 }

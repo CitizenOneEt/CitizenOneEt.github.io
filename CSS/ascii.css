@@ -19,11 +19,11 @@ h1 {
   flex-direction: column;
   align-items: center;
   align-self: center;
-  width: 57%;
+  width: 50%;
 }
 #mainText {
   width: 90%;
-  height: 400px;
+  height: 300px;
 }
 .control {
   display: inline;
@@ -36,4 +36,10 @@ h1 {
 }
 .playControls {
   margin-left: 10px;
+}
+#validator{
+  width: 100px;
+  margin-top: 20px;
+  align-self:flex-end;
+  
 }
