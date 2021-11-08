@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+}
+#maze{
+    width: 400px;
+    height: 250px;
+    margin: 10px auto;
+
+}
+h1, h2 {
+    
+    text-align: center;
+}
+#boundary1, #boundary3{
+    width: 29%;
+    height: 70%;
+    background-color: rgb(231, 231, 231);
+    float: left;
+    border: black solid 1px;
+}
+#boundary2{
+    width: 40%;
+    height: 15%;
+    float: left;
+    background-color: rgb(231, 231, 231);
+    border: black solid 1px; 
+}
+#boundary5{
+    width: 99%;
+    height: 14%;
+    float: left;
+    background-color: rgb(231, 231, 231);
+    border: black solid 1px;
+    border-left: none;
+    border-right: none;
+
+}
+
+#boundary4{
+    width: 25%;
+    height: 140px;
+    background-color: rgb(231, 231, 231);
+    margin: -100px 116px 0 116px;
+    border: black solid 1px;
+    border-bottom: none;
+
+}
+.inner{
+    float: left; 
+}
+.buttons{
+    width: 7.5%;
+    height: 12.5%;
+    margin-top: 1%;
+    text-align: center;
+    font-size: 150%;
+    border: black solid 1px;
+}
+#start{
+    background-color: rgb(161, 253, 161);
+}
+#end{
+    background-color:rgb(131, 112, 240);
+}
+.redZone{
+    background-color: rgb(229, 151, 151);
+}
