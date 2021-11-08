@@ -8,7 +8,7 @@ function changeOnHeader(){
     $('h2').text('Click the "S" to play')
 }
 function unbind(){
-    $('#start').off("click");
+    $('#start, #end').off("click");
     $('.boundary, body').off('mouseenter');
     $('.boundary').css('background-color', 'rgb(231, 231, 231)');
     updateHeader();
