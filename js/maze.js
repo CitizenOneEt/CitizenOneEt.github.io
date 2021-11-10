@@ -14,7 +14,7 @@ function unbind(){
     updateHeader();
 }
 function handler(){
-    $('#start').on('click',function(){
+    $('#start').on('click',function() {
         
         $('.boundary').on('mouseenter', function(){
             $(this).css('background-color', 'rgb(229, 151, 151)');
@@ -22,19 +22,21 @@ function handler(){
             alert('You Lose')
             unbind();
             handler();
-        })
-        $('body').on('mouseenter', function(){
+        });
+
+        $('body').on('mouseenter', function() {
             $('.boundary').css('background-color', 'rgb(229, 151, 151)');
             $('h2').text('You lose!')
             alert('You Lose')
             unbind();
             handler();
-        })
+        });
+
         $('#end').on('click',function(){
             $('h2').text('YOU WIN!')
             unbind(); 
             handler();
-        })
+        });
     })
     
 }
